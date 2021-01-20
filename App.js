@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import 'react-native-gesture-handler';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Poste from './Screens/Poste';
@@ -41,6 +41,10 @@ export default class App extends React.Component {
           <Stack.Screen
             name="Viewuser"
             component={Viewuser}
+          />
+          <Stack.Screen
+            name="Updateuser"
+            component={Updateuser}
           />
           <Stack.Screen
             name="Poste"

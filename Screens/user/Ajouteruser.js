@@ -35,7 +35,7 @@ const Ajouteruser = ({ navigation }) => {
           console.log('Results', results.rowsAffected);
           if (results.rowsAffected > 0) {
             Alert.alert(
-              'Bien jouer!',
+              'Envoyer',
               'Vous éte bien enregistré',
               [
                 {

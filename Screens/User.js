@@ -40,6 +40,11 @@ const User = ({ navigation }) => {
             title="Afficher"
             customClick={() => navigation.navigate('Viewuser')}
           />
+          <Montext text="Modifier un utilisateur" />
+          <Monbutton
+            title="Modifier"
+            customClick={() => navigation.navigate('Updateuser')}
+          />
         </View>
         <Text
           style={{
